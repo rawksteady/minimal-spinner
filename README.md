@@ -2,6 +2,14 @@
 
 Minimal one-element spinner/loader
 
+HTML
+
+```html
+<div class="mnml-spinner"></div>
+```
+
+CSS
+
 ````css
 .mnml-spinner {
     border: 0.25rem solid #eee;
