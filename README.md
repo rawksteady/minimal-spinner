@@ -2,6 +2,8 @@
 
 Minimal one-element spinner/loader
 
+[Codepen demo](http://cdpn.io/LGZxLa)
+
 HTML
 
 ```html
