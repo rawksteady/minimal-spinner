@@ -2,7 +2,7 @@
 
 Minimal one-element spinner/loader
 
-[Codepen demo](http://cdpn.io/LGZxLa)
+Demo: [https://rawksteady.github.io/mnml-spinner/](https://rawksteady.github.io/mnml-spinner/)
 
 HTML
 
