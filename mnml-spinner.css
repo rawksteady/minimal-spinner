@@ -17,7 +17,7 @@
         height: 5rem;
         width: 5rem;
 
-        animation: basic 1s infinite linear;
+        animation: mnmlSpinner 1s infinite linear;
     }
         .mnml-spinner.light {
             border-color: rgba(255, 255, 255, 0.2);
@@ -27,7 +27,7 @@
             border-color: rgba(0, 0, 0, 0.2);
             border-top-color: rgba(0, 0, 0, 1);
         }
-        @keyframes basic {
+        @keyframes mnmlSpinner {
             0%   { transform: rotate(0); }
             100% { transform: rotate(359.9deg); }
         }
