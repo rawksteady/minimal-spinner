@@ -1,0 +1,19 @@
+/*  ==================================================================  */
+/*  mnml-reset v1.0
+/*  ----
+/*  Because sometimes, even Normalize can seem too much.
+/*  ----
+/*  dennisandersson.me
+/*  twitter.com/ndrsn
+/*  dribbble.com/dennisandersson
+/*  github.com/rawksteady/
+/*  codepen.io/dennisandersson
+/*  ==================================================================  */
+
+    *{box-sizing:border-box;}*:after,*:before{box-sizing:inherit;}html,body{margin:0;padding:0;text-rendering:geometricPrecision;-webkit-font-smoothing:antialiased;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+
+/*  ==================================================================  */
+/*  Demo styles
+/*  ==================================================================  */
+
+    .c-dark,body{color:#222}.demo,body{text-align:center}.btn,code,pre{font-size:.8125rem}body{background-color:#eee;font-family:sans-serif}code,pre{font-family:monospace,monospace}pre{margin-bottom:0;padding-top:.75em;padding-bottom:.75em}.wrap{margin:4rem auto;max-width:640px;padding-left:1.5rem;padding-right:1.5rem}.ghm,.mnml-spinner{margin-right:auto;margin-left:auto}.bg-dark{background-color:#222}.bg-light{background-color:#fff}.c-light{color:#fff}.demos{border-radius:5px;box-shadow:0 20px 40px rgba(0,0,0,.1);margin-top:2rem;margin-bottom:2rem;overflow:hidden}.demo{padding-top:10%;padding-bottom:10%}@media (min-width:640px){.demos:after{clear:both;content:'';display:block}.demo{float:left;width:50%}}.btn{color:inherit;display:inline-block;padding:.75em 1.5em;text-decoration:none}.ghm{display:block;height:2rem;margin-bottom:.5rem;width:2rem}
