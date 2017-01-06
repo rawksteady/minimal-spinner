@@ -14,15 +14,23 @@ CSS
 
 ````css
 .mnml-spinner {
-    border: 0.25rem solid #eee;
-    border-top-color: #333;
     border-radius: 100%;
+    border-style: solid;
+    border-width: 0.25rem;
     height: 5rem;
     width: 5rem;
 
-    animation: basic 1s infinite linear;
+    animation: mnmlSpinner 1s infinite linear;
 }
-    @keyframes basic {
+    .mnml-spinner.light {
+        border-color: rgba(255, 255, 255, 0.2);
+        border-top-color: rgba(255, 255, 255, 1);
+    }
+    .mnml-spinner.dark {
+        border-color: rgba(0, 0, 0, 0.2);
+        border-top-color: rgba(0, 0, 0, 1);
+    }
+    @keyframes mnmlSpinner {
         0%   { transform: rotate(0); }
         100% { transform: rotate(359.9deg); }
     }
